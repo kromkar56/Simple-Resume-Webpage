@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Omkar- Resume</title>
+</head>
+<style>
+  body {
+  margin: 0;
+  font-family:  'Helvetica Neue', Arial, sans-serif;
+  background-color: burlywood;
+}
+.container {
+  max-width: 900px;
+  margin: 28px auto;
+  padding: 28px;
+  background: rgba(15, 148, 135, 0.431);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
+}
+.header {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.profile-pic {
+  flex: 0 0 110px;
+}
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgb(224, 231, 255), rgb(199, 249, 204));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(15, 23, 42);
+}
+.intro h1 {
+  margin: 0 0 6px 0;
+  font-size: 28px;
+  letter-spacing: 0.6px;
+}
+.subtitle {
+  margin: 0;
+  font-size: 16px;
+  color: rgb(75, 85, 99);
+}
+.location {
+  margin-top: 8px;
+  font-size: 14px;
+  color: rgb(107, 114, 128);
+}
+.contact {
+  text-align: right;
+  min-width: 210px;
+  font-size: 14px;
+  color: rgb(55, 65, 81);
+}
+.contact a {
+  color: rgb(5, 43, 67);
+  text-decoration: none;
+}
+.divider {
+  border: none;
+  height: 1px;
+  background: rgb(238, 242, 247);
+  margin: 18px 0;
+}
+.content {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.main {
+  flex: 1 1 580px;
+  min-width: 260px;
+}
+.sidebar {
+  flex: 0 0 260px;
+  min-width: 220px;
+}
+h2, h3 {
+  color: rgb(15, 23, 42);
+  margin: 0 0 8px 0;
+}
+p {
+  line-height: 1.6;
+  color: rgb(51, 65, 85);
+}
+.edu-sub {
+  color: rgb(71, 85, 105);
+}
+.project {
+  margin-bottom: 10px;
+}
+.project .tech {
+  color: rgb(107, 114, 128);
+  font-size: 13px;
+}
+.card {
+  margin-bottom: 18px;
+  padding: 14px;
+  border-radius: 10px;
+  background: rgb(251, 253, 255);
+  border: 1px solid rgb(238, 242, 247);
+}
+.card ul {
+  padding-left: 18px;
+  margin: 0;
+  line-height: 1.8;
+  color: rgb(51, 65, 85);
+}
+
+</style>
+
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="profile-pic">
+        <div class="avatar">O</div>
+      </div>
+
+      <div class="intro">
+        <h1>OMKAR</h1>
+        <p class="subtitle">Student • Aspiring Full-Stack Developer</p>
+        <p class="location">Patna, Bihar</p>
+      </div>
+
+      <div class="contact">
+        <p><strong>Email:</strong> <a href="mailto:kromkar56@gmail.com">kromkar56@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+918603310937">+91 86033 10937</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/omkar-60653237b" target="_blank">omkar-60653237b</a></p>
+      </div>
+    </header>
+
+    <hr class="divider">
+
+    <div class="content">
+
+      <main class="main">
+
+        <section>
+          <h2>Profile</h2>
+          <p>Motivated student pursuing a Bachelor's in Technology with hands-on interest in web development (HTML, CSS, JavaScript) and Python. Looking for internship or project opportunities to apply technical skills and grow in a collaborative environment.</p>
+        </section>
+
+        
+        <section>
+          <h2>Education</h2>
+
+          <div class="edu-item">
+            <p><strong>Bachelor of Technology (B.Tech)</strong></p>
+            <p class="edu-sub">Medhavi Skills University — 2025-2029</p>
+          </div>
+
+          <div class="edu-item">
+            <p><strong>High School</strong></p>
+            <p class="edu-sub">Marwari College, Darbhanga — 2022 - 2024</p>
+          </div>
+        </section>
+
+       
+        <section>
+          <h2>Projects & Experience</h2>
+
+          <article class="project">
+            <p><strong>Personal Portfolio Website</strong> <span class="tech">(HTML, CSS, JavaScript)</span></p>
+            <p>Designed and built a responsive portfolio to showcase projects and skills. Implemented mobile-friendly navigation and interactive project cards.</p>
+          </article>
+
+          <article class="project">
+            <p><strong>Python Automation Scripts</strong> <span class="tech">(Python)</span></p>
+            <p>Created small scripts to automate file handling and data formatting tasks to save time in day-to-day work.</p>
+          </article>
+
+        </section>
+
+      </main>
+
+      
+      <aside class="sidebar">
+
+        <section class="card">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML & CSS (responsive)</li>
+            <li>JavaScript (DOM)</li>
+            <li>Python (scripting)</li>
+            <li>Communication & Teamwork</li>
+            <li>Git & GitHub (basics)</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h3>Quick Info</h3>
+          <p><strong>Location:</strong> Patna, Bihar</p>
+          <p><strong>Availability:</strong> Internships / Projects</p>
+          <p><strong>Languages:</strong> English, Hindi</p>
+        </section>
+
+        <section class="card">
+          <h3>Interests</h3>
+          <p>Web development, Problem solving, Open-source, Learning new technologies</p>
+        </section>
+
+      </aside>
+
+    </div>
+
+    <hr class="divider">
+
+  </div>
+</body>
+</html>
